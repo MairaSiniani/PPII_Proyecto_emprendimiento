@@ -62,7 +62,7 @@ Sí.
 
 El producto en sí mismo, la cantidad, la fecha y el medio de pago.
 
-***¿Una venta puede tener varios productos? (tipo carrito) ***
+***¿Una venta puede tener varios productos? (tipo carrito)***
 
 Sí, si puede. 
 
@@ -109,5 +109,5 @@ Sí
 Si
 
 ***¿Vas a necesitar múltiples usuarios?***
-Si
 
+Si
