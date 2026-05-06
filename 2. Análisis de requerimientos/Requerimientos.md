@@ -18,12 +18,17 @@
 7. El sistema debe permitir consultar productos y servicios.
 
 ## 3. Gestión de Pedidos
-1. El sistema debe permitir registrar pedidos (producto, cantidad, servicio).
-2. El sistema debe permitir modificar y eliminar pedidos.
-3. El sistema debe calcular automáticamente el 50% del precio total como seña.
-4. El sistema debe permitir registrar si el cliente pagó la seña.
-5. El sistema debe permitir cambiar el estado del pedido: pendiente, en proceso, terminado, entregado.
-6. El sistema debe permitir consultar la lista de encargos.
+1. El sistema debe permitir registrar pedidos.
+2. El sistema debe permitir agregar uno o más ítems al pedido, donde cada ítem puede ser un producto (con cantidad) y/o un servicio.
+3. El sistema debe calcular automáticamente el total del pedido y el 50% del total como seña.
+4. El sistema debe permitir registrar el pago de la seña.
+5. El sistema debe confirmar el pedido solo si la seña fue pagada. En caso contrario, el pedido no debe registrarse como válido.
+6. El sistema debe permitir modificar pedidos (si no están entregados).
+7. El sistema debe permitir eliminar pedidos.
+8. El sistema debe permitir cambiar el estado del pedido, con los siguientes estados: pendiente, en proceso, terminado, entregado.
+10. El sistema debe permitir consultar la lista de pedidos.
+11. El sistema debe permitir visualizar el detalle de cada pedido.
+12. El sistema debe registrar la fecha del pedido
 
 ## 4. Gestión de Ventas
 1. El sistema debe permitir registrar ventas.
