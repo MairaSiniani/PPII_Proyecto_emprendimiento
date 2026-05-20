@@ -58,6 +58,3 @@
 2. El sistema debe permitir gestionar múltiples usuarios.
 3. El sistema debe permitir definir roles (ej: administrador).
 4. El sistema debe permitir adaptarse a múltiples sucursales en el futuro.
-
-## 9. Materiales
-1. El sistema debe permitir crear, consultar, modificar y eliminar materiales. 

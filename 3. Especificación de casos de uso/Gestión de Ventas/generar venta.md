@@ -2,22 +2,19 @@
 ## Actores: Sistema 
 ## Precondiciones:
 Debe existir un pedido registrado.
-El pedido debe cambiar a estado “entregado”.
+El pedido debe tener como estado “entregado”.
 El pago debe estar completo.
 
 ## Camino Básico:
 1. El usuario cambia el estado del pedido a “entregado”.
-2. El sistema detecta el cambio de estado.
-3. El sistema genera automáticamente una venta.
-4. El sistema copia los datos del pedido: ítems, cantidades, total.
-5. El sistema registra la fecha de entrega.
-6. El sistema guarda la venta en el historial.
+2. El sistema detecta el cambio de estado y registra la venta con los datos: ítems, cantidades, total, fecha de entrega.
+3. El usuario selecciona "Guardar".
+4. El sistema guarda los datos.
 
 ## Caminos Alternativos:
 
 3. 1. Error al generar venta
-        1. El sistema no puede generar la venta.
-        2. El sistema muestra un mensaje de error.
+        1. El sistema no puede generar la venta y muestra un mensaje de error.
 
 ## Postcondiciones:
 La venta queda registrada automáticamente en el sistema.

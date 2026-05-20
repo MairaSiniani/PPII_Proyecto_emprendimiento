@@ -5,9 +5,9 @@
 Debe existir al menos un pedido. 
 
 ## Camino Básico:
-1. El usuario accede al módulo de pedidos.
-2. El sistema obtiene la lista de pedidos y muestra fecha,estado y total.
-4. El usuario puede seleccionar un pedido.
+1. El usuario accede al módulo de Pedidos.
+2. El sistema obtiene la lista de pedidos y muestra fecha, estado y total.
+4. El usuario selecciona un pedido.
 5. El sistema muestra el detalle.
 
 ## Caminos Alternativos:
@@ -17,4 +17,10 @@ Debe existir al menos un pedido.
     2. El usuario puede elegir añadir pedidos y sale del módulo pedidos.
 
 ## Postcondiciones:
-El usuario visualiza los pedidos y sus detalles.
+_
+
+## Escenarios de éxito:
+1. EL usuario logra ver el detalle del pedido seleccionado
+
+## Escenarios de fracaso:
+1. El usuario no logra ver el detalle del pedido por algún error o porque nohay especificaciones.

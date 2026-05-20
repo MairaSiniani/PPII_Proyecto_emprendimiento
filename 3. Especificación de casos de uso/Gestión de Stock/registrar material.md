@@ -3,34 +3,29 @@
 ## Precondiciones: 
 
 El usuario debe haber iniciado sesión en el sistema.
-El sistema debe estar operando.
 
 ## Camino Básico:
 1. El usuario accede a la opción “Registrar material”.
 2. El sistema muestra el formulario de carga de material.
-3. El usuario ingresa los datos requeridos: nombre, tipo, característica, cantidad disponible, precio y categoría.
-4. El usuario confirma el registro.
-5. El sistema valida los datos ingresados.
-6. El sistema guarda el material en el stock.
-7. El sistema muestra un mensaje de confirmación de registro exitoso.
+3. El usuario ingresa los datos requeridos: nombre, tipo, característica, cantidad disponible, precio y categoría, y selecciona "Registrar".
+4. El sistema valida los datos ingresados, guarda el material en el stock y muestra un mensaje de confirmación.
 
 ## Caminos Alternativos:
 
-3. 1.  Datos incompletos
+3. 1.  Cancelación del registro
+        1. El usuario cancela la operación.
+        2. El sistema no guarda datos y regresa al menú principal.
 
-        1. El sistema detecta campos obligatorios vacíos.
-        2. El sistema muestra un mensaje: "Debe completar todos los campos obligatorios".
-        3. El usuario corrige los datos y vuelve al paso 3.
+4. 1.  Datos incompletos
+
+        1. El sistema detecta campos obligatorios vacíos y muestra un mensaje: "Debe completar todos los campos obligatorios".
+        2. El usuario corrige los datos y vuelve al paso 3.
 
     2. Datos inválidos
 
-        1. El sistema detecta datos incorrectos (por ejemplo: cantidad o precio negativos).
-        2. El sistema muestra un mensaje: "Datos inválidos".
-        3. El usuario corrige los datos y vuelve al paso 3.
+        1. El sistema detecta datos incorrectos (por ejemplo: cantidad o precio negativos) y muestra un mensaje: "Datos inválidos".
+        2. El usuario corrige los datos y vuelve al paso 3.
 
-4. 1.  Cancelación del registro
-        1. El usuario cancela la operación.
-        2. El sistema no guarda datos y regresa al menú principal.
 
 ## Postcondiciones:
 

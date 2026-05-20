@@ -25,8 +25,7 @@ Debe existir un pedido registrado. El pedido no debe estar en estado “entregad
 El pedido queda actualizado y se recalculan el total y la seña.
 
 ## Escenarios de éxito:
-El usuario puede modificar el pedido y se actualizan los datos.
+El usuario puede modificar el pedido y actualizar los datos.
 
 ## Escenarios de fracaso:
 1. No se puede modificar el pedido
-2. Los datos son inválidos

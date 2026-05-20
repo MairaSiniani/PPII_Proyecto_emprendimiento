@@ -1,7 +1,7 @@
 # Caso de uso: Eliminar Pedido
 ## Actores: Usuario 
 ## Precondiciones:
-Debe existir un pedido.
+Debe existir un pedido registrado.
 
 ## Camino Básico:
 1. El usuario accede al listado de pedidos.
@@ -20,5 +20,8 @@ Debe existir un pedido.
 ## Postcondiciones:
 El pedido es eliminado.
 
+## Escenarios de écito: 
+
+1. EL usuario puede eliminar el pedido.
 ## Escenarios de Fracaso:
 1. Error del sistema al eliminar el pedido.

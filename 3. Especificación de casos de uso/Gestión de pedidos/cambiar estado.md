@@ -11,7 +11,9 @@ Debe existir un pedido registrado.
 4. El sistema actualiza el estado y guarda el cambio.
 
 ## Caminos Alternativos:
-_
+
+3. 1. El usuario no cambia el estado del pedido
+    1. El sistema no hace ningún cambio
 
 ## Postcondiciones:
 El pedido queda registrado con el nuevo estado.

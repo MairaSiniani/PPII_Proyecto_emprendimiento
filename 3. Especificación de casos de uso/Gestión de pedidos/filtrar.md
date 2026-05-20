@@ -7,8 +7,8 @@ Deben existir pedidos registrados.
 1. El usuario accede al módulo de pedidos.
 2. El sistema muestra la lista completa de pedidos.
 3. El usuario ingresa uno o más criterios de filtrado: estado (pendiente, en proceso, terminado, entregado) o fecha y aplica el filtro.
-5. El sistema muestra los pedidos que cumplen con las condiciones.
-6. El usuario visualiza los resultados filtrados.
+4. El sistema muestra los pedidos que cumplen con las condiciones.
+5. El usuario visualiza los resultados filtrados.
 
 ## Caminos Alternativos:
 4. 1. Filtros vacíos
@@ -26,4 +26,5 @@ Se muestra una lista filtrada de pedidos según los criterios seleccionados.
 El usuario encuentra rápidamente los pedidos que necesita gestionar.
 
 ## Escenarios de Fracaso:
-No hay coincidencias.
+1. No hay coincidencias.
+2. No hay filtros

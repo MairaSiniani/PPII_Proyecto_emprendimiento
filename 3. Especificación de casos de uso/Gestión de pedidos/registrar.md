@@ -1,7 +1,7 @@
 # Caso de uso: Registrar Pedido
 ## Actores: Usuario 
 ## Precondiciones: 
-El usuario debe haber iniciado sesión. 
+El usuario debe haber iniciado sesión. Debe existir al menos un un material y un producto o servicio registrado.
 
 ## Camino Básico:
 1. El usuario accede al módulo de pedidos y selecciona “Registrar pedido”.
@@ -31,8 +31,7 @@ selecciona el servicio (puede agregar notas de especificación y fecha de entreg
 El pedido queda registrado con su detalle, total y estado inicial.
 
 ## Escenarios de Éxito:
-El pedido se registra correctamente con seña confirmada.
+El usuario logra que el pedido se registre correctamente con seña confirmada.
 
 ## Escenarios de Fracaso:
-1. No se paga la seña.
-2. No hay ítems en el pedido.
+1. No se registra el pedido.

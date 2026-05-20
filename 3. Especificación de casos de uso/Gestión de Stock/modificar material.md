@@ -1,19 +1,15 @@
 # Caso de uso: Modificar Material
 ## Actores: Usuario (Administrador)
 ## Precondiciones:
-El usuario debe haber iniciado sesión. Debe existir al menos un material registrado en el sistema.
+Debe existir al menos un material registrado en el sistema.
 
 ## Camino Básico:
 1. El usuario accede al listado de materiales.
 2. El sistema muestra los materiales disponibles.
-3. El usuario selecciona un material.
-4. El usuario elige la opción “Modificar”.
-5. El sistema muestra los datos actuales del material.
-6. El usuario edita los campos (nombre, tipo, característica, cantidad, precio, categoría).
-7. El usuario confirma los cambios.
-8. El sistema valida los datos ingresados.
-9. El sistema actualiza la información del material.
-10. El sistema muestra un mensaje de confirmación.
+3. El usuario selecciona un material y elige la opción “Modificar”.
+4. El sistema muestra los datos actuales del material.
+5. El usuario edita los campos (nombre, tipo, característica, cantidad, precio, categoría) y confirma los cambios.
+6. El sistema valida los datos ingresados, actualiza la información del material y muestra un mensaje de confirmación.
 
 ## Caminos Alternativos:
 
