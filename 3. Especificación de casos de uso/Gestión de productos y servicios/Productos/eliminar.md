@@ -10,9 +10,7 @@ Debe existir al menos un producto registrado.
 4. El usuario elige la opción “Eliminar”.
 5. El sistema solicita confirmación.
 6. El usuario confirma la eliminación.
-7. El sistema elimina el producto.
-8. El sistema actualiza la lista de productos.
-9. El sistema muestra un mensaje de confirmación.
+7. El sistema elimina el producto, actualiza la lista y muestra un mensaje de confirmación.
 
 ## Caminos Alternativos:
 
@@ -21,9 +19,7 @@ Debe existir al menos un producto registrado.
         2. El sistema no elimina el producto.
 
 7. 1. Error al eliminar
-        1. El sistema no puede eliminar el producto.
-        2. El sistema muestra un mensaje: "No fue posible eliminar el producto".
-        3. El sistema mantiene el producto sin cambios.
+        1. El sistema no puede eliminar el producto, muestra un mensaje: "No fue posible eliminar el producto" y mantiene el producto sin cambios.
 
 ## Postcondiciones:
 El producto es eliminado del sistema.

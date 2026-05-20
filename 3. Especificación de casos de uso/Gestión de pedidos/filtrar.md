@@ -6,8 +6,7 @@ Deben existir pedidos registrados.
 ## Camino Básico:
 1. El usuario accede al módulo de pedidos.
 2. El sistema muestra la lista completa de pedidos.
-3. El usuario ingresa uno o más criterios de filtrado: estado (pendiente, en proceso, terminado, entregado) o fecha.
-4. El usuario aplica el filtro.
+3. El usuario ingresa uno o más criterios de filtrado: estado (pendiente, en proceso, terminado, entregado) o fecha y aplica el filtro.
 5. El sistema muestra los pedidos que cumplen con las condiciones.
 6. El usuario visualiza los resultados filtrados.
 
@@ -17,9 +16,8 @@ Deben existir pedidos registrados.
         2. El sistema muestra la lista completa de pedidos.
 
 5. 1. Sin resultados
-        1. El sistema no encuentra pedidos que coincidan.
-        2. El sistema muestra: "No se encontraron pedidos".
-        3. El usuario vuelve al paso 3.
+        1. El sistema no encuentra pedidos que coincidan y muestra un mensaje "No se encontraron pedidos".
+        2. El usuario vuelve al paso 3.
 
 ## Postcondiciones:
 Se muestra una lista filtrada de pedidos según los criterios seleccionados.

@@ -5,16 +5,17 @@ Debe existir un pedido.
 
 ## Camino Básico:
 1. El usuario accede al listado de pedidos.
-2. Selecciona un pedido.
-3. Elige “Eliminar”.
+2. El sistema obtiene la lista de pedidos registrados.
+3. El usuario selecciona un pedido y elige "Eliminar"
 4. El sistema solicita confirmación.
-5. Confirma la acción.
+5. EL usuario confirma la acción.
 6. El sistema elimina el pedido.
 
 ## Caminos Alternativos:
 
-5. 1. Cancelación
-        1. El usuario cancela la operación.
+5. 1. El usuario cancela la eliminación.
+        1. El sistema no realiza ninguna operación y retira la solicitud de confirmación.
+        2. El usuario vuelve al paso 1.
 
 ## Postcondiciones:
 El pedido es eliminado.

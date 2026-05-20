@@ -7,27 +7,18 @@ Deben existir al menos un material registrado en el sistema. Cada material debe 
 
 # Camino Básico:
 1. El sistema monitorea periódicamente el stock de materiales.
-2. El sistema compara la cantidad disponible de cada material con su nivel mínimo.
-3. El sistema detecta materiales con stock menor o igual al mínimo establecido.
-4. El sistema genera una alerta de stock bajo.
-5. El sistema muestra la alerta al usuario (notificación o indicador visual).
-6. El usuario visualiza los materiales con bajo stock.
+2. El usuario hace uso de los materiales cuando registra algún pedido. 
+3. El sistema resta los materiales usados del stock, detecta los materiales con stock menor o igual al mínimo establecido y genera una alerta de stock bajo (notificación o indicador visual).
+4. El usuario visualiza los materiales con bajo stock.
 
 ## Caminos Alternativos:
 
 3. 1. Sin materiales con stock bajo
-        1. El sistema no detecta materiales por debajo del mínimo.
-        2. El sistema no genera alertas.
-
-    2. Error en la verificación
-        1. El sistema no puede verificar los niveles de stock.
-        2. El sistema registra el error.
-        3. El sistema muestra un mensaje: "No fue posible verificar el stock".
+        1. El sistema no detecta materiales por debajo del mínimo y no genera alertas.
 
     3. Material sin stock mínimo definido
-        1. El sistema detecta materiales sin nivel mínimo configurado.
-        2. El sistema ignora esos materiales.
-
+        1. El sistema detecta materiales sin nivel mínimo configurado y solicita al usuario agregarlo. 
+        
 ## Postcondiciones:
 El usuario es informado sobre materiales con bajo stock.
 

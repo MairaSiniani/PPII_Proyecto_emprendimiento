@@ -31,11 +31,11 @@
 12. El sistema debe registrar la fecha del pedido
 
 ## 4. Gestión de Ventas
-1. El sistema debe permitir registrar ventas.
-2. El sistema debe permitir asociar una venta a un encargo previo.
-3. El sistema debe permitir registrar múltiples productos en una venta (carrito).
-4. El sistema debe guardar: productos vendidos, cantidades, fecha, medio de pago.
-5. El sistema debe generar un historial de ventas.
+1. El sistema debe generar automáticamente una venta cuando un pedido cambia al estado “entregado”.
+2. El sistema debe registrar en la venta los ítems del pedido (productos/servicios), las cantidades, el total, la fecha de fecha de entrega y el medio de pago.
+3. El sistema debe permitir consultar el historial de ventas.
+4. El sistema debe permitir visualizar el detalle de cada venta.
+5. El sistema debe permitir utilizar la información de ventas para reportes.
 
 ## 5. Gestión Financiera
 1. El sistema debe permitir registrar gastos.
@@ -58,3 +58,6 @@
 2. El sistema debe permitir gestionar múltiples usuarios.
 3. El sistema debe permitir definir roles (ej: administrador).
 4. El sistema debe permitir adaptarse a múltiples sucursales en el futuro.
+
+## 9. Materiales
+1. El sistema debe permitir crear, consultar, modificar y eliminar materiales. 
